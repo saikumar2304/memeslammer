@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+body{
+   background-color:whitesmoke ;
+    overflow-x: hidden;
+}
+
+b{
+    font-weight: 600;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 8%;
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px;
+
+    
+}
+
+.logo{
+    font-size: 30px;
+    color: purple;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.dis a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #5865f2;
+}
+
+.body{
+    padding: 250px 8%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.body h1{
+    font-size: 40px;
+    color: #343a40;
+    font-weight: bold;
+}
+
+.body h2{
+    font-size: 20px;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.body h3{
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.btn{
+    border: 1px solid;
+    background-color: purple;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    transition-duration: 0.5s;
+
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: purple;
+}   
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    position: absolute;
+    top: 190px;
+    left: 60%;
+    z-index: -1;
+
+    
+}
+
+.bots1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    z-index: -1;
+
+}
+
+.bots1 div{
+    width: 30%;
+    background-color: rgb(158, 77, 158);
+    padding: 50px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+
+}
+
+.s1 h1{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.s1 h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 8%;
+    align-items: center;
+    box-shadow: 1px;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: transparent;
+
+}
+
+.join{
+    width: 400px;
+    height: 200px;
+    color: black;
+
+}
+
+.join h1{
+    font-size: 30px;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.join h3{
+    font-size: 15px;
+    color: #343a40;
+    font-weight: 400;
+}
+
+input{
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    height: 50px;
+    width: 600px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+::placeholder{
+    color: #ccc;
+    font-size: 15px;
+}
+
+.formbtn{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 150px;
+    height: 45px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.formbtn:hover{
+    background-color: transparent;
+    color: purple;
+
+}
+
+.appeal h1{
+    font-size: 25px;
+    color: #343a40;
+    font-weight: 600;
+}
+
+.copyright{
+    font-size: 15px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.copyright h2{
+    font-size: 17px;
+    font-weight: 500;
+}
